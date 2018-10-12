@@ -1,0 +1,30 @@
+# Basis for common SSH needs from the boxes
+# Non-provided info shall be noted
+
+# 父母:
+
+# 公寓:
+
+Host tempePi
+	HostName
+	Port
+	User
+
+Host goodyearLinux
+	HostName
+	Port
+	User
+
+Host asu
+	HostName
+	User
+
+Host labPC
+	HostName
+	User
+	IdentityFile
+
+Host github-sf314
+	HostName github.com
+	User git
+	IdentityFile 

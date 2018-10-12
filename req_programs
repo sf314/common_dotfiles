@@ -1,0 +1,23 @@
+# Programs desired for daily use
+# One-liners will be provided for easy copy-paste
+
+# Common
+vim
+git
+gcc
+g++
+make
+ifconfig (net-tools)
+
+vim git gcc g++ make net-tools
+
+# Core Flight System (apt)
+gcc-multilib 
+g++-multilib 
+python-qt4
+pyqt4-dev-tools
+python-zmq
+
+gcc-multilib g++-multilib python-qt4 pyqt4-dev-tools python-zmq
+
+
