@@ -2,6 +2,9 @@ Guide:
 To install these on a new system, you'll need to get the current system
 to load the files.
 
+To make things easy, you can simply run the `setup_box.sh` script to 
+perform steps 1 thru 3.
+
 0: Clone
 Clone this repository in your home folder for easy access.
 
@@ -23,4 +26,3 @@ the vimrc from the repo into your home directory. This one isn't gonna be
 updateable thru `git pull`
 
 4: Setting up ssh
-
