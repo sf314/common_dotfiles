@@ -7,9 +7,10 @@ git
 gcc
 g++
 make
+cmake
 ifconfig (net-tools)
 
-vim git gcc g++ make net-tools
+vim git gcc g++ make cmake net-tools
 
 # Core Flight System (apt)
 gcc-multilib 
