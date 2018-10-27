@@ -19,10 +19,10 @@ fi
 
 ### 1: Programs: use provided PM to do so 
 echo "Installing common programs"
-sudo $PMAN vim git gcc g++ make cmake net-tools
+sudo $PMAN install vim git gcc g++ make cmake net-tools
 
 echo "Installing Core Flight System dependencies"
-sudo $PMAN gcc-multilib g++-multilib python-qt4 pyqt4-dev-tools python-zmq
+sudo $PMAN install gcc-multilib g++-multilib python-qt4 pyqt4-dev-tools python-zmq
 
 ### 2: bashrc: source the version-controlled bashrc from the existing one
 echo "Configuring bashrc... "
