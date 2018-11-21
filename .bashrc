@@ -13,4 +13,6 @@ PS1="\[\033[92m\]我是\u 在\[\033[0;91m\](\w)\[\033[96m\]\$(get_git_branch)\[\
 export EDITOR=vim
 export VISUAL=vim
 
+# Add path to avr32 toolchain
+PATH=$PATH:/usr/local/avr32/bin
 
