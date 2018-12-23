@@ -14,4 +14,6 @@ PS1="[\h]: 我是\u 在(\w)\$(get_git_branch)\n└─ > "
 export EDITOR=vim
 export VISUAL=vim
 
+# Add path to avr32 toolchain
+PATH=$PATH:/usr/local/avr32/bin
 
