@@ -19,7 +19,3 @@ PS1="\[\033[92m\][\h]: 我是\u 在\[\033[0;94m\](\w)\[\033[96m\]\$(get_git_bran
 # Set common variables (MUST BE BOX-AGNOSTIC)
 export EDITOR=vim
 export VISUAL=vim
-
-# Add path to avr32 toolchain
-PATH=$PATH:/usr/local/avr32/bin
-
