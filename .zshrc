@@ -10,10 +10,10 @@ get_git_branch() {
 
 # Set prompt
 setopt PROMPT_SUBST # ensures that branch is re-evaluated
-PS1=$'%{\033[92m%}[%m]: 我是%n在%{\033[0;94m%}(%~)%{\033[96m%} $(get_git_branch)%{\033[92m%}\n└─ > %{\033[0m%}'
+PS1=$'%{\033[92m%}[%m]: 我是%n在%{\033[0;34m%}(%~)%{\033[96m%} $(get_git_branch)%{\033[92m%}\n└─ > %{\033[0m%}'
 
 # Set aliases
-alias ls="ls -F"
+alias ls="ls -FG"
 
 
 # Set common variables (MUST BE BOX-AGNOSTIC)
