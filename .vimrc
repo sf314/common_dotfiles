@@ -9,6 +9,5 @@ set number
 syntax on
 
 set showcmd
-set cursorline
 set showmatch
-
+set nowrap
