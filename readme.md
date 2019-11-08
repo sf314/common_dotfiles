@@ -20,6 +20,8 @@ In the existing bashrc, add the following line:
 This will allow the new content to be used with the existing content, while
 ensuring that the new bashrc can still be easily updated with a `git pull`
 
+For ZSH, you can do the same with `~/.zshrc` and `. ~/common_dotfiles/.zshrc`.
+
 3: Install the new .vimrc
 Assuming vim is already installed and ready to go, you can simply copy
 the vimrc from the repo into your home directory. This one isn't gonna be 
