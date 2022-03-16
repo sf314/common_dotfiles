@@ -14,16 +14,22 @@ PS1=$'%{\033[92m%}[%m]: 我是%n在%{\033[0;34m%}(%~)%{\033[96m%} $(get_git_bran
 
 # Set aliases
 alias ls="ls -FG"
-
+alias gd-all="./gradlew clean build && docker-compose up --build"
+alias g-build="./gradlew clean build"
+alias d-up="docker-compose up --build"
 
 # Set common variables (MUST BE BOX-AGNOSTIC)
 EDITOR=vim
 VISUAL=vim
 CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
-CANSAT=/Users/stephen/Desktop/俱乐部/CanSat
-CLUBS=/Users/stephen/Desktop/俱乐部
-FUN=/Users/stephen/Desktop/fun
+FSW=/Users/stephen/codebase/projects/fsw
+
+# Back To School directories
+LEET=/Users/stephen/codebase/leetcode
+SUBMISSIONS="/Users/stephen/Documents/Class Submissions"
+CLASSES=$SUBMISSIONS
 
 PATH="/Users/stephen/bin:$PATH"
 
