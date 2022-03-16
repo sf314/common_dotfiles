@@ -22,10 +22,14 @@ alias d-up="docker-compose up --build"
 EDITOR=vim
 VISUAL=vim
 CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
 
-CANSAT=/Users/stephen/Desktop/俱乐部/CanSat
-CLUBS=/Users/stephen/Desktop/俱乐部
-FUN=/Users/stephen/Desktop/fun
+FSW=/Users/stephen/codebase/projects/fsw
+
+# Back To School directories
+LEET=/Users/stephen/codebase/leetcode
+SUBMISSIONS="/Users/stephen/Documents/Class Submissions"
+CLASSES=$SUBMISSIONS
 
 PATH="/Users/stephen/bin:$PATH"
 
