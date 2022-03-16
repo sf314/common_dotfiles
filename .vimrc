@@ -11,3 +11,8 @@ syntax on
 set showcmd
 set showmatch
 set nowrap
+
+set ruler
+set laststatus=2
+let g:netrw_browse_split = 2
+let g:netrw_liststyle = 3
