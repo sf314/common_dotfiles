@@ -14,7 +14,9 @@ PS1=$'%{\033[92m%}[%m]: 我是%n在%{\033[0;34m%}(%~)%{\033[96m%} $(get_git_bran
 
 # Set aliases
 alias ls="ls -FG"
-
+alias gd-all="./gradlew clean build && docker-compose up --build"
+alias g-build="./gradlew clean build"
+alias d-up="docker-compose up --build"
 
 # Set common variables (MUST BE BOX-AGNOSTIC)
 EDITOR=vim
