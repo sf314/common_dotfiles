@@ -1,12 +1,8 @@
 
-
 # Setup git branch
 get_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-
-
-
 
 # Set prompt
 setopt PROMPT_SUBST # ensures that branch is re-evaluated
@@ -23,15 +19,6 @@ EDITOR=vim
 VISUAL=vim
 CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-
-FSW=/Users/stephen/codebase/projects/fsw
-
-# Back To School directories
-LEET=/Users/stephen/codebase/leetcode
-SUBMISSIONS="/Users/stephen/Documents/Class Submissions"
-CLASSES=$SUBMISSIONS
-
-PATH="/Users/stephen/bin:$PATH"
 
 # Configure terminal niceties
 autoload -U compinit && compinit
